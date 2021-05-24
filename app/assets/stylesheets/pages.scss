@@ -1,6 +1,38 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-input {
-    background-color: grey;
+.form {
+  background-color: grey;
+
+  display: inline;
+}
+
+p {
+  display: block;
   }
+
+.answer {
+  background-color: #FFFEE7;
+  font-weight: bold;
+  border-left: 6px solid grey;
+  padding-left: 10px;
+  }
+
+.question {
+  background-color: #F9F9F9;
+  border-left: 6px solid grey;
+  padding-left: 10px;
+  }
+
+.input {
+  width: 80%;
+  height: 30px;
+
+}
+
+.button {
+  background-color: #0077b6;
+  color: white;
+  height: 30px;
+
+}
